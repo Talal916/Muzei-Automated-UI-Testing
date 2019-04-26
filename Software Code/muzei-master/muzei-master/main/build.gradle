@@ -47,6 +47,7 @@ android {
         buildConfigField "String", "SOURCES_AUTHORITY", "\"${sourcesAuthorityValue}\""
 
         buildConfigField "String", "DEVICE_TYPE", "\"android\""
+        testInstrumentationRunner = 'android.support.test.runner.AndroidJUnitRunner'
     }
 
     signingConfigs {
@@ -127,6 +128,8 @@ dependencies {
     implementation project(':source-gallery')
     implementation project(':source-single')
     implementation project(':gl-wallpaper')
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0-alpha04'
+    androidTestImplementation 'androidx.test:rules:1.2.0-alpha04'
 }
 
 apply plugin: 'com.google.gms.google-services'
