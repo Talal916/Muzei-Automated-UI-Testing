@@ -47,7 +47,7 @@ android {
         buildConfigField "String", "SOURCES_AUTHORITY", "\"${sourcesAuthorityValue}\""
 
         buildConfigField "String", "DEVICE_TYPE", "\"android\""
-        testInstrumentationRunner = 'android.support.test.runner.AndroidJUnitRunner'
+        testInstrumentationRunner = 'androidx.support.test.runner.AndroidJUnitRunner'
     }
 
     signingConfigs {
