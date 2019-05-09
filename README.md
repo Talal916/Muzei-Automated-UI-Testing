@@ -1,4 +1,4 @@
-# Muzei-Appium-Testing
+# Muzei-Espresso-Testing
 Testing the Android application Muzei for CSC 179 at CSUS
 
 <b>Contributors:</b>
