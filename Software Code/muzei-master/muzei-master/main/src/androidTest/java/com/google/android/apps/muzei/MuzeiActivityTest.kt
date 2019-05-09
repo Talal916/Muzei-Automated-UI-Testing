@@ -20,7 +20,7 @@ import org.junit.Test
 import org.junit.runner.RunWith
 
 @LargeTest
-@RunWith(AndroidJUnit4::class)
+@RunWith(AndroidJUnit4::class) //attempting fix for class not found exception
 class MuzeiActivityTest {
 
     @Rule
